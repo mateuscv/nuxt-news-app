@@ -1,6 +1,6 @@
 <template>
   <article class="media">
-    <figure class="media-left">
+    <figure v-if="newsItem.urlToImage" class=" is-vcentered media-left">
       <p class="image is-128x128">
         <img :src="newsItem.urlToImage" />
       </p>
@@ -50,5 +50,8 @@ export default {
 <style scoped>
 a {
   color: brown;
+}
+.is-vcentered {
+  display: flex;
 }
 </style>

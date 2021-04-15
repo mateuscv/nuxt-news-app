@@ -1,8 +1,8 @@
 <template>
   <div>
     <br />
-    <div id="block" style="margin-top: 10">
-      <section class="hero is-danger is-small">
+    <div id="block" style="margin-top: 8">
+      <section class="hero is-small">
         <div class="hero-body">
           <p class="title">
             News List App
@@ -11,7 +11,7 @@
       </section>
     </div>
     <div class="container">
-      <NewsList />
+      <LazyNewsList />
     </div>
   </div>
 </template>
@@ -26,5 +26,9 @@ html {
 }
 .title {
   text-align: center;
+  color: white;
+}
+.hero {
+  background-color: crimson;
 }
 </style>
