@@ -1,7 +1,6 @@
 <template>
   <div>
-    <br />
-    <div id="block" style="margin-top: 8">
+    <div id="block">
       <section class="hero is-small">
         <div class="hero-body">
           <p class="title">
@@ -30,5 +29,8 @@ html {
 }
 .hero {
   background-color: crimson;
+}
+#block {
+  margin-top: 12px;
 }
 </style>
