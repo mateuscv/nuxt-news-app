@@ -96,7 +96,7 @@ export default {
   },
   async fetch() {
     this.newsList = await fetch(
-      "https://newsapi.org/v2/top-headlines?country=us&apiKey=" +
+      "https://newsapi.org/v2/top-headlines?country=br&apiKey=" +
         process.env.VUE_APP_NEWS_API_KEY
     ).then(res => res.json());
   }

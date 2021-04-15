@@ -1,8 +1,8 @@
 <template>
   <article class="media">
-    <figure v-if="newsItem.urlToImage" class=" is-vcentered media-left">
+    <figure v-if="newsItem.urlToImage" class="is-vcentered media-left">
       <p class="image is-128x128">
-        <img :src="newsItem.urlToImage" />
+        <b-image ratio="16by13" :src="newsItem.urlToImage" />
       </p>
     </figure>
     <div class="media-content">
