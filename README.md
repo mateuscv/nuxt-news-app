@@ -2,6 +2,8 @@ Please build and run locally for the best experience. Get an API key through new
 
 Live project demo (only works for first API call!): https://news-app-sd.herokuapp.com/
 
+![screenshot](https://user-images.githubusercontent.com/30094842/122921400-d16ad180-d338-11eb-8ac5-be1b1063eff4.png)
+
 # news-app
 
 ## Build Setup
