@@ -1,4 +1,6 @@
-Please build and run locally for the best experience
+Please build and run locally for the best experience. Get an API key through newsapi.org and add it to a .env file in the root directory, attributing it to a variable named VUE_APP_NEWS_API_KEY.
+
+Live project demo (only works for first API call!): https://news-app-sd.herokuapp.com/
 
 # news-app
 
