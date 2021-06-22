@@ -1,3 +1,5 @@
+Please build and run locally for the best experience
+
 # news-app
 
 ## Build Setup
